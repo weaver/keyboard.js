@@ -35,10 +35,19 @@ the top of the file to define `window.Kb`:
 
 ## Compatibility ##
 
-Keyboard.js has been tested in these browsers. If you find a bug,
-please report it in the issue tracker.
+Keyboard.js has been tested in these browsers. If you experience an
+error, please report it in the issue tracker.
 
-+
++ IE
+  - 7 / Windows Server 2003
+  - 8 / Windows Server 2003
+  - 8 / Windows 7 Professional 64
++ Chrome
+  - 7 / Windows 7 Professional 64
+  - 7 / Linux 64
++ FF
+  - 3.6 / Windows Server 2003
+  - 3.6 / Linux 64
 
 ## Key Names ##
 
@@ -108,7 +117,7 @@ Parse a friendly name into a `Key` object.
 
 Convert a `Key` object to a friendly name.
 
-### See Also ###
+## See Also ##
 
 + [DOM Level 3 Events][2]
 + [Javascript Madness: Keyboard Events][3]
