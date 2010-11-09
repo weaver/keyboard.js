@@ -84,7 +84,7 @@ specification. Currently supported are:
 
 These public methods are available:
 
-**Keyboard([keys])**
+### Keyboard([keys]) ###
 
 Create a new keyboard instance.
 
@@ -112,6 +112,8 @@ keyboard to elements externally. For example:
 
     var kb = Keyboard();
     jQuery(window).keyup(kb.trigger);
+
+### Other Methods ###
 
 **key(event)**
 
